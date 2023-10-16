@@ -1,0 +1,62 @@
+<link rel="index.html" type="text/css" href="CSS/style.css">
+
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+nav {
+    width: 90%;
+    padding: 1% 1%;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+
+p {
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+
+nav ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.heroImg .content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+footer {
+    background-color: lightsalmon;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer li {
+}
+
