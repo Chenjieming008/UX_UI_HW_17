@@ -1,5 +1,9 @@
 <link rel="index.html" type="text/css" href="CSS/style.css">
 
+* {
+    font-family: Arial, sans-serif;
+}
+
 
 .inline-block {
     display: inline-block;
@@ -17,9 +21,8 @@
 }
 
 .logo p {
-    font-size: 32px;
+    font-size: 43px;
     margin-bottom: 20px;
-    border-radius: 10px;
 }
 
 nav {
@@ -31,20 +34,38 @@ nav {
     background-color: whitesmoke;
     border-radius: 10px;
     padding-top: 20px;
-    /* padding-left: 150px; */
 }
 
 nav a {
     font-weight: bold;
     color: black;
+    text-decoration: none;
+    margin-right: 50px;
+    border: none;
+    font-size: 25px;
 }
 
 
 p {
     font-size: 20px;
-    background-color: whitesmoke;
-    border-radius: 10px;
+    align-items: center;
+    display: flex;
 }
+
+.leftImage {
+    float: left;
+    margin-right: 20px;
+}
+
+.heroImg img:not(.leftImage) {
+    margin-left: 20px; /* Adjust this value as needed */
+}
+
+.special-text {
+    font-size: 37px;
+}
+
+
 
 nav ul {
     width: 50%;
@@ -57,16 +78,46 @@ nav ul {
     padding: 25px;
 }
 
-.heroImg .content {
-    width: 500px;
-    margin: 0 auto;
-    margin-top: 30px;
+.styled-btn {
+    padding: 20px 40px;
+    font-size: 30px; 
+    background-color:lightblue;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
+.styled-btn a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.styled-btn:hover {
+    background-color:lightgrey;
+}
+
+.styled-btn:active {
+    background-color:lightgray;
+}
 
 footer {
-    background-color: lightsalmon;
+    background-color: whitesmoke;
 }
+
+.email {
+    text-align: center;
+    align-items: center;
+}
+
+.story-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 
 footer ul {
     display: inline-block;
@@ -76,6 +127,56 @@ footer ul {
 footer li {
 }
 
-*[style*="background-color"], .logo p, nav {
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);  /* Adjust values as necessary */
+.footer-buttons {
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 20%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.footer-buttons button {
+    background-color: lightblue; 
+    color:black;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.footer-buttons button:hover {
+    background-color: lightgray;
+}
+
+.footer-buttons a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-button {
+    padding: 20px 35px; 
+    background-color: lightblue;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 24px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.main-button:hover {
+    background-color: lightgrey;
+}
+
+.main-button:active {
+    background-color: lightgray;
+}
+
+.main-button a {
+    color: black;
+    text-decoration: none;
+    font-weight: none;
 }
